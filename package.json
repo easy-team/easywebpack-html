@@ -1,6 +1,6 @@
 {
   "name": "easywebpack-html",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "static html build solution for easywebpack",
   "keywords": [
     "webpack",
