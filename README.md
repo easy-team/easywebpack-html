@@ -2,6 +2,9 @@
 
 Multiple Static Html Page Build Solution for easywebpack.
 
+- support static html template
+- support nunjucks html template
+
 ## Install
 
 ```bash
@@ -17,25 +20,6 @@ const config = {
   entry: {
     include: 'page',
     template: 'view/layout.html'
-  },
-  alias: {
-    asset: 'asset'
-  },
-  options: {
-    externals: {
-      jquery: 'window.$'
-    }
-  },
-  loaders: {
-
-  },
-  plugins: {
-
-  },
-  create() {
-  },
-  done() {
-
   }
 };
 
