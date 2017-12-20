@@ -5,7 +5,7 @@ exports.nunjucks = {
   use: ['html-loader', {
     loader: 'nunjucks-html-loader',
     options: {
-      searchPaths: ['./widget']
+      searchPaths: []
     }
   }]
 };
