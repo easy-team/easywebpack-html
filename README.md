@@ -1,9 +1,14 @@
 # easywebpack-html
 
-Multiple Static Html Page Build Solution for easywebpack.
+static html webpack build for easywebpack.
 
 - support static html template
 - support nunjucks html template
+
+## Version
+
+- webpack 3.x.x :  easywebpack ^3.x.x
+- webpack 4.x.x :  easywebpack ^4.x.x
 
 ## Install
 
@@ -18,9 +23,9 @@ $ npm i easywebpack-html --save-dev
 const HtmlWebpack = require('easywebpack-html');
 const config = {
   entry: {
-    include: 'page',
-    template: 'view/layout.html'
-  }
+    index: './scr/index.js'
+  },
+  template: 'view/layout.html'
 };
 
 if (process.env.NODE_SERVER) {

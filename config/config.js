@@ -1,7 +1,4 @@
 module.exports = {
-  entry: {
-    extMatch: '.js'
-  },
   cssExtract: true,
   hotCss: true,
   loaders:{
@@ -11,8 +8,6 @@ module.exports = {
     stylus: false
   },
   plugins: {
-    buildfile: false,
-    manifest: false,
-    manifestDeps: false
+    manifest: false
   }
 };
