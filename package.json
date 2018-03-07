@@ -1,6 +1,6 @@
 {
   "name": "easywebpack-html",
-  "version": "4.0.0-rc.1",
+  "version": "4.0.0",
   "description": "static html webpack build solution for easywebpack",
   "keywords": [
     "webpack",
@@ -9,7 +9,7 @@
     "nunjucks"
   ],
   "dependencies": {
-    "easywebpack": "next",
+    "easywebpack": "^4.0.0",
     "html-loader": "^0.5.1",
     "html-webpack-plugin": "^3.0.6",
     "nunjucks-html-loader": "^1.1.0"
