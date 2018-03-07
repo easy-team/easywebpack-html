@@ -1,5 +1,25 @@
 # easywebpack-html
 
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![Test coverage][codecov-image]][codecov-url]
+[![David deps][david-image]][david-url]
+[![Known Vulnerabilities][snyk-image]][snyk-url]
+[![npm download][download-image]][download-url]
+
+[npm-image]: https://img.shields.io/npm/v/easywebpack-html.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/easywebpack-html
+[travis-image]: https://img.shields.io/travis/hubcarl/easywebpack-html.svg?style=flat-square
+[travis-url]: https://travis-ci.org/hubcarl/easywebpack-html
+[codecov-image]: https://img.shields.io/codecov/c/github/hubcarl/easywebpack-html.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/hubcarl/easywebpack-html?branch=master
+[david-image]: https://img.shields.io/david/hubcarl/easywebpack-html.svg?style=flat-square
+[david-url]: https://david-dm.org/hubcarl/easywebpack-html
+[snyk-image]: https://snyk.io/test/npm/easywebpack-html/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/easywebpack-html
+[download-image]: https://img.shields.io/npm/dm/easywebpack-html.svg?style=flat-square
+[download-url]: https://npmjs.org/package/easywebpack-html
+
 static html webpack build for easywebpack.
 
 - support static html template
@@ -7,8 +27,8 @@ static html webpack build for easywebpack.
 
 ## Version
 
-- webpack 3.x.x :  easywebpack ^3.x.x
-- webpack 4.x.x :  easywebpack ^4.x.x
+- easywebpack ^4.x.x > webpack 4.x.x
+- easywebpack ^3.x.x > webpack 3.x.x 
 
 ## Install
 
