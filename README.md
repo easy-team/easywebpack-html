@@ -43,7 +43,7 @@ $ npm i easywebpack-html --save-dev
 const HtmlWebpack = require('easywebpack-html');
 const config = {
   entry: {
-    index: './scr/index.js'
+    index: './src/index.js'
   },
   template: 'view/layout.html'
 };
