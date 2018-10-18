@@ -81,13 +81,13 @@ describe('client.test.js', () => {
     it('should dev cdn config test', () => {
       const builder = createBuilder({ debug: true, env: 'dev', cdn: { url: cdnUrl} });
       const webpackConfig = builder.create();
-      expect(webpackConfig.output.publicPath).to.equal(cdnUrl + '/public/');
+      expect(webpackConfig.output.publicPath).to.equal('/public/');
     });
 
     it('should dev cdn config test', () => {
       const builder = createBuilder({ debug: true, env: 'dev', cdn: { url: cdnUrl} });
       const webpackConfig = builder.create();
-      expect(webpackConfig.output.publicPath).to.equal(cdnUrl + '/public/');
+      expect(webpackConfig.output.publicPath).to.equal('/public/');
     });
 
     it('should dev publicPath config test', () => {
